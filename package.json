@@ -1,0 +1,14 @@
+{
+  "name": "cassbrowne",
+  "version": "1.0.0",
+  "description": "This is a portfolio site for Cass Browne",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "anthonydillon",
+  "license": "ISC",
+  "dependencies": {
+    "vanilla-framework": "0.0.53"
+  }
+}

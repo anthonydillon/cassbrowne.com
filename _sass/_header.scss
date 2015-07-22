@@ -1,0 +1,23 @@
+@mixin cb-header {
+
+  header.banner {
+    margin-top: 20px;
+  }
+  .site-title {
+    color: $brand-text-color;
+  }
+
+  .header-details {
+    float: right;
+    margin-top: 10px;
+  }
+
+  .header-details__label {
+    display: inline-block !important;
+      color: $brand-text-color;
+  }
+
+  .header-details__item {
+    margin-bottom: 0;
+  }
+}
