@@ -3,10 +3,17 @@
 ---
 @charset "utf-8";
 
-
+@font-face {
+  font-family: 'Swiss721BT-BoldCondensed';
+    src: url('fonts/Swiss721CB.eot');
+    src: url('fonts/Swiss721CB.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Swiss721CB.woff2') format('woff2'),
+         url('fonts/Swiss721CB.woff') format('woff'),
+         url('fonts/Swiss721CB.ttf') format('truetype');
+}
 
 // Our variables
-$base-font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', 'sans serif';
+$base-font-family:'Swiss721BT-BoldCondensed', Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', 'sans serif';
 $secondary-font-family: 'Swiss721BT-BoldCondensed', Arial;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
